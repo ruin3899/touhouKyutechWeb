@@ -1,0 +1,150 @@
+.yuji-syuku-regular {
+  font-family: "Yuji Syuku", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+}
+
+nav table {
+  width: 100%;
+  border: 1px solid white;
+}
+
+nav td {
+  width: 25%;
+  border-right: 1px dotted white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+main{
+  display: flex;
+}
+
+h2 {
+  text-align: center;
+}
+
+.left-items {
+  width: 20%;
+  margin-top: 0px;
+  margin: auto;
+}
+
+.news {
+  border: 1px solid red;
+  margin-bottom: 15px;
+}
+
+.news h2 {
+  font-size: 1.5em;
+  background-color: red;
+}
+
+.news ul {
+  width: 100%;
+  margin: auto;
+  list-style: none;
+}
+
+.links {
+  border: 1px solid green;
+  margin-bottom: 15px;
+}
+.links h2 {
+  font-size: 1.5em;
+  background-color: green;
+  margin: 0;
+}
+
+.links ul {
+  width: 100%;
+  margin: auto;
+  list-style: none;
+}
+
+.x {
+  border: 1px solid blue;
+}
+
+.x h2 {
+  font-size: 1.5em;
+  background-color: blue;
+  margin: 0;
+}
+
+.main-item {
+  margin: auto;
+  margin-top: 0px;
+  width: 55%;
+  border: 1px solid white;
+}
+
+.main-item h2 {
+  font-size: 1.5em;
+  background-color: white;
+  color: black;
+  margin: 0;
+}
+
+.right-items {
+  margin: auto;
+  margin-top: 0px;
+  width: 20%;
+}
+
+.genres {
+  margin: auto;
+  border: 1px solid red;
+  margin-bottom: 15px;
+}
+
+.genres h2 {
+  font-size: 1.5em;
+  background-color: red;
+  margin: 0;
+  
+}
+
+.genres ul {
+  width: 90%;
+  list-style: none;
+}
+
+.tags {
+  margin: auto;
+  border: 1px solid green;
+}
+
+.tags h2 {
+  font-size: 1.5em;
+  background-color: green;
+  margin: 0;
+}
+
+.tags ul {
+  width: 90%;
+  list-style: none;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
